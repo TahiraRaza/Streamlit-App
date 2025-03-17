@@ -14,7 +14,7 @@ st.title("House Price and Loan Calculator")
 # image = Image.open(r"D:/HV-filesync/tara0001/Desktop/Data Scientist/Machine learning/Kunskapskontroll_2/Kunskapskontroll_2_Tahira_Raza_ny/Streamlit/sunset_1.png")
 image = Image.open("sunset_1.png")
 image = image.resize((600, 400))  # Resize to desired width and height
-st.image(image, use_column_width=True)
+st.image(image, use_container_width=True)
 
 # 1. Calculate 15% of the entered house price
 st.header("Down Payment Calculation")

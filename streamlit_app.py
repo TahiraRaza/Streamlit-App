@@ -11,7 +11,8 @@ def format_sek(amount):
 st.title("House Price and Loan Calculator")
 
 # Display the image
-image = Image.open(r"D:/HV-filesync/tara0001/Desktop/Data Scientist/Machine learning/Kunskapskontroll_2/Kunskapskontroll_2_Tahira_Raza_ny/Streamlit/sunset_1.png")
+# image = Image.open(r"D:/HV-filesync/tara0001/Desktop/Data Scientist/Machine learning/Kunskapskontroll_2/Kunskapskontroll_2_Tahira_Raza_ny/Streamlit/sunset_1.png")
+image = Image.open("sunset_1.png")
 image = image.resize((600, 400))  # Resize to desired width and height
 st.image(image, use_column_width=True)
 
